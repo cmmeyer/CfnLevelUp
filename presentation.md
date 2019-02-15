@@ -21,18 +21,10 @@ name: Agenda
 # Agenda
 
 ## Intro
---
-
 ## Authoring
---
-
 ## Deploying
---
-
 ##Testing
---
-
-## Demos
+## Demos along the way
 
 ---
 name: Intro

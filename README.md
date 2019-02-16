@@ -8,11 +8,11 @@
 
 This presentation is written in markdown using [remark](https://github.com/gnab/remark) and [backslide](https://github.com/sinedied/backslide).
 
-Slides are in the `presentation.md`. Style sheets are in `templates/`. All graphic assets are stored in the `assets/` directory.
+Slides are in `presentation.md` in [remark](https://github.com/gnab/remark/wiki/Markdown) syntax. The style sheet and required javascript components are in `templates/`. All graphic assets are stored in the `assets/` directory.
 
-You'll need backslide installed to build new PDF versions: (`npm install -g backslide`), then run `build.sh`.
+You'll need backslide installed to build new PDF versions: `npm install -g backslide`
+Then run `build.sh` to construct the new `PDF` file.
 
 To present the slides directly from the markdown, run `bs serve` from this directory.
 
-You can also build an animated GIF of your presentation, but you need ImageMagick (`convert`) and Ghost Script (`gs`).
-With those tools installed, you can execute `build-gif.sh`
+You can also build an animated GIF of this presentation, but you need ImageMagick (`convert`) and Ghost Script (`gs`). With those tools installed, execute `build-gif.sh`
